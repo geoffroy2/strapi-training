@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_feature_blogs",
+  "info": {
+    "displayName": "FeatureBlog",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturingPostHeading": {
+      "type": "string"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}
